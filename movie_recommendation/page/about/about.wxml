@@ -1,0 +1,10 @@
+<!--page/about/about.wxml-->
+<view class="page-body-info" >
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+
+<view class='source'>根据哔哩哔哩</view>
+<view class='source'>https://www.bilibili.com/video/av22004522</view>
+<view class='source'>学习整理</view>
