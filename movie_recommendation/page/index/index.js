@@ -46,7 +46,7 @@ Page({
   },
 
   f1: function(e) {
-    // console.log(e.currentTarget)
+    console.log(e.currentTarget)
     var mid = e.currentTarget.dataset.movieId
     wx.navigateTo({
       url: '/page/detail/detail?mid=' + mid,
